@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+	<head>
+		<title>Error</title>
+	</head>
+	<body>
+	<a th:href="@{/}">Back to Home</a>
+		<h2 th:text="'Sorry, License Number : ' + ${licenseNumber} + ' was not found'">Error</h2>
+	</body>
+</html>
